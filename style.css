@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 4000px;
+}
+
+
+header{
+    position: relative;
+}
+
+section{
+    padding: 2rem 8%;
+}
+
+header .header-1{
+    position: relative;
+    background: url('bgSect1.jpg');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .header-1 .burger{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 200;
+}
+
+.bars1, .bars2, .bars3{
+    background: #fff;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+header .header-1 .overlayTagline{
+    background: rgba(0,0,0, .9);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    padding: 15% 10%;
+}
+
+header .header-1 .images{
+    position: absolute;
+    max-width: 600px;
+    max-height: 500px;
+    right: 110px;
+    top: 15%;
+}
+
+header .header-1 .images img{
+    width: 100%;
+    height: 100%;
+}
+
+header .header-1 .overlayTagline,
+.secondSection .overlayTagline{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header .header-1 .overlayTagline .contentText h5,
+.secondSection .overlayTagline .contentText h5,
+.thirdSection .overlayTagline .contentText h5,
+.fourthSection .overlayTagline .contentText h5,
+.fifthSection .overlayTagline .contentText h5,
+.sixthSection .overlayTagline .contentText h5,
+.seventhSection .overlayTagline .contentText h5
+{
+    color: orange;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+header .header-1 .overlayTagline .contentText h1,
+.secondSection .overlayTagline .contentText h1,
+.thirdSection .overlayTagline .contentText h1,
+.fourthSection .overlayTagline .contentText h1,
+.fifthSection .overlayTagline .contentText h1,
+.sixthSection .overlayTagline .contentText h1,
+.seventhSection .overlayTagline .contentText h1
+{
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+header .header-1 .overlayTagline .contentText h4,
+.secondSection .overlayTagline .contentText h4,
+.thirdSection .overlayTagline .contentText h4,
+.fourthSection .overlayTagline .contentText h4,
+.fifthSection .overlayTagline .contentText h4,
+.sixthSection .overlayTagline .contentText h4,
+.seventhSection .overlayTagline .contentText h4
+{
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-top: 7px;
+}
+
+header .header-1 .overlayTagline .contentText p,
+.secondSection .overlayTagline .contentText p,
+.thirdSection .overlayTagline .contentText p,
+.fourthSection .overlayTagline .contentText p,
+.fifthSection .overlayTagline .contentText p,
+.sixthSection .overlayTagline .contentText p,
+.seventhSection .overlayTagline .contentText p
+{
+    color: #fff;
+    font-size: .9rem;
+    text-transform: capitalize;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+
+header .header-1 .overlayTagline .contentText h6,
+.secondSection .overlayTagline .contentText h6,
+.thirdSection .overlayTagline .contentText h6,
+.fourthSection .overlayTagline .contentText h6,
+.fifthSection .overlayTagline .contentText h6,
+.sixthSection .overlayTagline .contentText h6,
+.sevenththSection .overlayTagline .contentText h6
+{
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 6px;
+}
+
+header .header-1 .overlayTagline .contentText i,
+.secondSection .overlayTagline .contentText i,
+.thirdSection .overlayTagline .contentText i,
+.fourthSection .overlayTagline .contentText i,
+.fifthSection .overlayTagline .contentText i,
+.sixthSection .overlayTagline .contentText i,
+.seventhSection .overlayTagline .contentText i
+{
+    color: #fff;
+    font-size: .9rem;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+
+
+/* Section 2 */
+.secondSection {
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    background: url('bgSect2.jpg');
+    height: 650px;
+    background-size:cover;
+    background-repeat:none;
+    background-position:center;
+}
+
+.secondSection .overlayTagline{
+    background: rgba(0,0,0, .9);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    padding: 15% 10%;
+    left: 0;
+    top: 0;
+}
+
+
+.secondSection .images{
+    position: absolute;
+    max-width: 200px;
+    max-height: 100px;
+    right: 110px;
+    top: 15%;
+}
+
+.secondSection .images img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Section 3 */
+.thirdSection {
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    background: url('bgSect3.jpg');
+    height: 650px;
+    background-size:cover;
+    background-repeat:none;
+    background-position:center;
+}
+
+.thirdSection .overlayTagline{
+    background: rgba(0,0,0, .9);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    padding: 15% 10%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.thirdSection .images{
+    position: absolute;
+    max-width: 200px;
+    max-height: 100px;
+    right: 110px;
+    top: 15%;
+}
+
+.thirdSection .images img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Section 3 */
+.fourthSection {
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    background: #fed33b;
+    height: 650px;
+    background-size:cover;
+    background-repeat:none;
+    background-position:center;
+}
+
+.fourthSection .overlayTagline{
+    background: rgba(0,0,0, .9);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    padding: 15% 10%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Section 5 */
+.fifthSection {
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    background: url('banner.svg');
+    height: 650px;
+    background-size:cover;
+    background-repeat:none;
+    background-position:center;
+}
+
+.fifthSection .overlayTagline{
+    background: rgba(0,0,0, .9);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    padding: 15% 10%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Section 5 */
+.sixthSection {
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    background: url('bgSect4.png');
+    height: 650px;
+    background-size:cover;
+    background-repeat:none;
+    background-position:center;
+}
+
+.sixthSection .overlayTagline{
+    background: rgba(0,0,0, .9);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    padding: 15% 10%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Section 3 */
+.seventhSection {
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    background: #fed33b;
+    height: 650px;
+    background-size:cover;
+    background-repeat:none;
+    background-position:center;
+}
+
+.seventhSection .overlayTagline{
+    background: rgba(0,0,0, .9);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    padding: 15% 10%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.seventhSection h3{
+    color: #fed33b;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+@media(max-width:780px){
+    html{
+        font-size: 60%;
+    }
+
+    header .header-1 .overlayTagline .contentText h1{
+        font-size: 2rem;
+    }
+
+    header .header-1 .images{
+        top: 15%;
+        right: 0;
+    }
+    header .header-1 .overlayTagline{
+        width: 80%;
+    }
+
+    .secondSection .overlayTagline{
+        width: 80%;
+    }
+
+    .thirdSection .overlayTagline{
+        width: 80%;
+    }
+    .fourthSection .overlayTagline{
+        width: 80%;
+    }
+    .fifthSection .overlayTagline{
+        width: 80%;
+    }
+    .sixthSection .overlayTagline{
+        width: 80%;
+    }
+    .seventhSection .overlayTagline{
+        width: 80%;
+    }
+
+    .secondSection .images{
+        top: 5%;
+        right: 0;
+    }
+
+    .thirdSection .images{
+        top: 5%;
+        right: 0;
+    }
+
+}
